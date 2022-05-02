@@ -8,31 +8,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
-    <title>Bike King Borders</title>
+    <title>BKB | Ridgeaway</title>
 </head>
 
 
 <body>
 <?php include "header.php"; ?>
-    <main class="bike-main">
-        <h2 class="bike-header">Bikes</h2>
-        <h5 class="cat-header">CATEGORIES</h5>
-        <div class="bike-container">
-            <figure class="cat-spacing">
-                <a href="childbike.php"><img src="elements/saleBikeKids1.jpg" alt="kids bikes" class="bike-cat"></a>
-                <figcaption class="cat-kids">Kids</figcaption>
-            </figure>
-            <figure class="cat-spacing">
-                <a href="bikesmen.php"><img src="elements/adultbike2.jpg" alt="mens bikes" class="bike-cat"></a>
-                <figcaption class="cat-men"><u>Men</u></figcaption>
-            </figure>
-            <figure class="cat-spacing">
-                <a href="womanbike.php"><img src="elements/racingBike.jpg" alt="women's bikes" class="bike-cat"></a>
-                <figcaption class="cat-woman">Woman</figcaption>
-            </figure>
-        </div>
+<?php include "bikemain.php"; ?>
 
-    </main>
     <article class="bike-background">
         <div class="bike-head">
             <h2>Ridgeway Adventurer</h2>
@@ -49,7 +32,7 @@
                     The Step-thru frame has all the same design features as the unisex version but with the added
                     benefit of a partially dropped top tube. </p>
                 <br>
-                <p><strong>Features</strong></p>
+                <b>Features</b>
                 <ul>
                     <li>Weight: 13.5kg</li>
                     <li>Saddle: Whyte custom women's fit, triple panel design</li>

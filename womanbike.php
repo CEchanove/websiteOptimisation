@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
-    <title>Bike King Borders</title>
+    <title>BKB | Women Bikes</title>
 </head>
 
 
@@ -19,11 +19,11 @@
         <h5 class="cat-header">CATEGORIES</h5>
         <div class="bike-container">
             <figure class="cat-spacing">
-                <a href="childbike.php"><img src="elements/saleBikeKids1.jpg" alt="kids bikes" class="bike-cat"></a>
+                <a href="kids-bike.php"><img src="elements/saleBikeKids1.jpg" alt="kids bikes" class="bike-cat"></a>
                 <figcaption class="cat-kids">Kids</figcaption>
             </figure>
             <figure class="cat-spacing">
-                <a href="bikesmen.php"><img src="elements/adultbike2.jpg" alt="mens bikes" class="bike-cat"></a>
+                <a href="shop.php"><img src="elements/adultbike2.jpg" alt="mens bikes" class="bike-cat"></a>
                 <figcaption class="cat-men">Men</figcaption>
             </figure>
             <figure class="cat-spacing">

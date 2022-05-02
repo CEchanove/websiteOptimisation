@@ -14,26 +14,8 @@
 
 <body>
 <?php include "header.php"; ?>
-    <main class="bike-main">
-        <h2 class="bike-header">Bikes</h2>
-        <h5 class="cat-header">CATEGORIES</h5>
-        <div class="bike-container">
-            <figure class="cat-spacing">
-                <a href="childbike.html"><img src="elements/saleBikeKids1.jpg" alt="kids bikes" class="bike-cat"></a>
-                <figcaption class="cat-kids">Kids</figcaption>
-            </figure>
-            <figure class="cat-spacing">
-                <a href="bikesmen.html"><img src="elements/adultbike2.jpg" alt="mens bikes" class="bike-cat"></a>
-                <figcaption class="cat-men"><u>Men</u></figcaption>
-            </figure>
-            <figure class="cat-spacing">
-                <a href="womanbike.html"><img src="elements/racingBike.jpg" alt="women's bikes" class="bike-cat"></a>
-                <figcaption class="cat-woman">Woman</figcaption>
-            </figure>
-        </div>
-
-    </main>
-    <article class="bike-background">
+<?php include "bikemain.php"; ?>
+<article class="bike-background">
         <div class="bike-head">
             <h2>Attain Performance</h2>
         </div>
@@ -50,7 +32,7 @@
                     to concentrate on your performance without worrying about wet roads.
                 </p>
                 <br>
-                <p><strong>Features</strong></p>
+                <b>Features</b>
                 <ul>
                     <li>Aluminium frame</li>
                     <li>Integrated cable routing</li>

@@ -27,8 +27,8 @@
     <article class="service-wrap">
         <div class="service-container">
             <section class="service-icons">
-                <img src="elements/CircleButton.png" class="icon">
-                <p>Bikes</p>
+                <a href="shop.php"><img src="elements/CircleButton.png" class="icon" alt="icon">
+                <h3>Shop</h3></a>
                 <p class="icon-text">Brand new bikes in stock from top quality brands like Trek, Orange, Genesis and
                     Santa
                     Cruz and an extensive range of clothing and accessories from brands including Gore Bike Wear,
@@ -37,8 +37,8 @@
                 </p>
             </section>
             <section class="service-icons">
-                <img src="elements/tools.png" class="icon">
-                <p>Service & Repair</p>
+            <a href="service.php"><img src="elements/tools.png" class="icon" alt="icon">
+                <h3>Service & Repair</h3></a>
                 <p class="icon-text">Full repair and servicing facilities will be onsite to take care of any mechanical
                     problems that occur on the trail - our qualified staff will do their best to keep you riding for as
                     long
@@ -46,8 +46,8 @@
                 </p>
             </section>
             <section class="service-icons">
-                <a href="#localTrails"><img src="elements/Map.png"  class="icon"></a>
-                <p>Local Trails</p>
+            <a href="#local-trails"><img src="elements/Map.png"  class="icon" alt="icon">
+                <h3>Local Trails</h3></a>
                 <p class="icon-text">Our staff are all experienced riders and know the trails well - call in and ask
                     their
                     advice on the best routes and current trail conditions.
@@ -58,17 +58,13 @@
             <p class="service-text">
                 With brand new bikes in stock from top quality brands like Trek, Orange, Genesis and Santa Cruz and an
                 extensive range of clothing and accessories from brands including Gore Bike Wear, Endura, Shimano, Hope
-                and Bontrager the shop will cater for a wide range of visitors to the forest.
+                and Bontrager the shop will cater for a wide range of visitors to the forest.<br>
         Full repair and servicing facilities will be onsite to take care of any mechanical
                 problems that occur
                 on the trail - our qualified staff will do their best to keep you riding for as long as possible!
                 Our staff are all experienced riders and know the trails well - call in and ask their advice on the best
                 routes and current trail conditions.
-                Wilderness Forest is a mountain biking Mecca deep in the heart of the stunning Borders. The biking experience here includes Green, Blue, Red or Black graded trails, as well as a magnificent multi-graded free-ride area. In the unlikely event that Wilderness fails to meet your thirst for biking exhilaration, you are only a short hop from Innerleithen's famous Red Bull down-hill and cross country trails. 
-Our Shop We have more than 100 hire bikes available at Bike King Borders, including top end demo models, full suspension trail bikes, hard-tails, kids bikes and tagalongs so we have something for all the family.
-With brand new bikes in stock from top quality brands like Trek, Orange, Genesis and Santa Cruz and an extensive range of clothing and accessories from brands including Gore Bike Wear, Endura, Shimano, Hope and Bontrager the shop will cater for a wide range of visitors to the forest.
-Full repair and servicing facilities will be onsite to take care of any mechanical problems that occur on the trail - our qualified staff will do their best to keep you riding for as long as possible!
-Our staff are all experienced riders and know the trails well - call in and ask their advice on the best routes and current trail conditions
+                
 </p>
 
 
@@ -76,7 +72,7 @@ Our staff are all experienced riders and know the trails well - call in and ask 
     </article>
     <article class="sale">
 
-        <p class="sale-head">On Sale this week</p>
+        <h2 class="sale-head">On Sale this week</h2>
 
         <section class="sale-container">
             <figure class="row">
@@ -108,16 +104,17 @@ Our staff are all experienced riders and know the trails well - call in and ask 
             </figure>
         </section>
     </article>
-    <aside class="local-trails">
-        <h5>Local Trails</h5>
+    <aside id="local-trails">
+        <h2>Local Trails</h2>
         <div class=" video-container">
         <iframe class="video" src='https://www.youtube.com/embed/bwtIyN9NfGI' frameborder='0' allowfullscreen></iframe>
         </div>
         <section class="video-text">
-            <p class="trail-text">Imagine the wind streaming through your hair as you pedal through the open
-                countryside. Are you pedalling
-                through thriving woodland? Along a meandering coastal path? Or past rolling hills and glittering
-                expanses of water? Scotland's awe-inspiring landscapes have all this to offer and much, much more.
+            <p class="trail-text">Wilderness Forest is a mountain biking Mecca deep in the heart of the stunning Borders. The biking experience here includes Green, Blue, Red or Black graded trails, as well as a magnificent multi-graded free-ride area. In the unlikely event that Wilderness fails to meet your thirst for biking exhilaration, you are only a short hop from Innerleithen's famous Red Bull down-hill and cross country trails. 
+Our Shop We have more than 100 hire bikes available at Bike King Borders, including top end demo models, full suspension trail bikes, hard-tails, kids bikes and tagalongs so we have something for all the family.
+With brand new bikes in stock from top quality brands like Trek, Orange, Genesis and Santa Cruz and an extensive range of clothing and accessories from brands including Gore Bike Wear, Endura, Shimano, Hope and Bontrager the shop will cater for a wide range of visitors to the forest.
+Full repair and servicing facilities will be onsite to take care of any mechanical problems that occur on the trail - our qualified staff will do their best to keep you riding for as long as possible!
+Our staff are all experienced riders and know the trails well - call in and ask their advice on the best routes and current trail conditions
             </p>
 
         </section>

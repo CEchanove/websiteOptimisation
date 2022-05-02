@@ -6,7 +6,7 @@
         <nav>
             <ul>
                 <li><a href="index.php">Home</a></li>
-                <li><a href="bikesmen.php">Bikes</a></li>
+                <li><a href="shop.php">Shop</a></li>
                 <li><a href="bikehire.php">Hire</a></li>
                 <li><a href="service.php">Service</a></li>
                 <li><a href="contact.php">Contact</a></li>

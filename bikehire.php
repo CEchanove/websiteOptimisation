@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
-    <title>Bike King Borders</title>
+    <title>BKB | Hire</title>
 </head>
 
 
@@ -16,7 +16,7 @@
 <?php include "header.php"; ?>
     <main class="bikehire-hero">
         <div class="bikehero-text">
-            <p>Hire a Bike</p>
+            <h1>Hire a Bike</h1>
         </div>
     </main>
     <article class="bikehire-main">
