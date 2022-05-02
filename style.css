@@ -1,0 +1,1206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  height: 70px;
+  background-color: #262626;
+  padding: 10px 0;
+}
+
+.menu-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.logo-img {
+  height: 50px;
+}
+
+.menu-icon {
+  font-size: 2.2em;
+  color: #3a8c7d;
+  line-height: 50px;
+}
+
+nav {
+  position: absolute;
+  background-color: #262626;
+  top: 60px;
+  left: 0;
+  width: 100%;
+}
+nav ul {
+  list-style-type: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+nav ul li {
+  padding: 0 15px;
+}
+nav ul li a {
+  display: inline-block;
+  padding: 12px;
+  color: #3a8c7d;
+  text-decoration: none;
+}
+nav ul li a:hover,
+nav ul li a:focus {
+  color: #f2f2f2;
+}
+
+#checkbox {
+  display: none;
+}
+#checkbox:checked ~ nav ul {
+  max-height: 300px;
+  padding: 15px 0;
+  transition: all 0.5s;
+}
+
+.heroImage {
+  background: url(elements/hero.webp);
+  height: 80vh;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+p {
+  margin-top: 8%;
+  padding: 0 20px;
+  line-height: 1.5em;
+  font-size: 1.1em;
+}
+
+.viewBikeButton {
+  font-size: 1.8em;
+  margin-top: 20%;
+  padding: 10px 50px;
+  border-radius: 50px;
+  color: #f2f2f2;
+  background-color: #3a8c7d;
+}
+
+h4 {
+  margin-top: 5%;
+}
+.icon-text {
+  margin-top: 5%;
+}
+
+/* Service icons section */
+
+.service-wrap {
+  display: flex;
+  flex-direction: column;
+  background-color: #262626;
+  padding-bottom: 30px;
+}
+.desktop-text {
+  display: none;
+}
+.service-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f2f2f2;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  text-align: center;
+  padding: 0 10px;
+}
+/* Sale section styles */
+
+.sale {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3a8c7d;
+  padding-bottom: 30px;
+}
+.saleImage1,
+.saleImage1 {
+  height: 200px;
+}
+
+h2 {
+  padding-top: 4%;
+  padding-bottom: 4%;
+  color: #f2f2f2;
+  font-size: 2em;
+}
+.saleImage {
+  height: 200px;
+  margin-top: 10%;
+  padding-bottom: 5px;
+}
+
+.product-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  color: #f2f2f2;
+}
+/*  */
+
+.local-trails {
+  display: flex;
+  flex-direction: column;
+  color: #f2f2f2;
+  text-align: center;
+  background-color: #262626;
+}
+/* Newsletter sign up */
+
+.form-main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: auto;
+}
+.sub-head {
+  text-align: center;
+}
+.sub-form {
+  width: 90%;
+  margin: auto;
+}
+
+.main-form {
+  font-size: 20px;
+  text-align: center;
+  margin: 3px;
+}
+
+#main-email[type="email"] {
+  background: #f2f2f2;
+  border: 0;
+  border-radius: 5px;
+  width: 220px;
+}
+
+input[type="submit"] {
+  /* vertical-align: top; */
+  height: 45px;
+  width: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+  border: 0;
+  border-radius: 5px;
+  background: #262626;
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #f2f2f2;
+}
+
+input[type="date"] {
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
+}
+
+input[type="text"] {
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
+}
+
+input[type="submit"]:hover {
+  background: linear-gradient(180deg, #ff6c54, #ffa754);
+}
+
+h5 {
+  font-size: 2em;
+}
+h6 {
+  font-size: 1.5em;
+  color: #262626;
+}
+.local-trails {
+  background-color: #f2f2f2;
+  color: #262626;
+}
+.video-text {
+  margin-bottom: 10%;
+}
+
+.video-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin-top: 3%;
+}
+
+.video-container::after {
+  padding-top: 56.25%;
+  display: block;
+  content: "";
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.subscribe {
+  background-color: #3a8c7d;
+  height: 10%;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.sub-button {
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  background-color: #262626;
+  padding-bottom: 20px;
+  color: #f2f2f2;
+}
+
+.address-text {
+  display: none;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px 15px;
+}
+
+.social-icons {
+  height: 30px;
+}
+.copyright {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 0.7em;
+}
+
+.footer-text {
+  margin: 0;
+  text-align: center;
+}
+
+/* Bike page styles */
+
+.bike-background {
+  background-color: #3a8c7d;
+  color: #f2f2f2;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.bike-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bike-header {
+  font-size: 3em;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #262626;
+}
+.cat-header {
+  font-size: 1em;
+  letter-spacing: 2px;
+}
+
+.cat-spacing {
+  padding: 20px;
+}
+
+.bike-main {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+.cat-kids,
+.cat-men,
+.cat-woman {
+  text-align: center;
+  color: #262626;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+}
+
+.cat-header {
+  text-align: center;
+}
+
+.bike-cat {
+  height: 180px;
+}
+
+.mens-head,
+.bike-head {
+  text-align: center;
+}
+
+.bike-selection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #3a8c7d;
+  width: 90%;
+  margin: auto;
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.selection-size {
+  height: 150px;
+}
+
+.tiagra-img {
+  height: 180px;
+}
+
+/* Tiagra bike page styles */
+
+.bike-text li:before {
+  content: "•";
+}
+
+.bike-text p {
+  margin-top: 2%;
+  text-align: center;
+}
+
+/* Bike hire styles */
+
+.bikehire-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(elements/bikehire.webp);
+  height: 90vh;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.bikehero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f2f2f2;
+}
+
+.heroContents {
+  padding-top: 40px;
+  text-align: center;
+  color: #f2f2f2;
+  height: 100%;
+}
+.bikehire-main {
+  background-color: #f2f2f2;
+}
+.bikehire-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bikehire-charges {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-evenly;
+  width: 90%;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bikehire-charges ul {
+  color: #3a8c7d;
+  list-style-type: none;
+}
+
+.bikehire-charges li {
+  color: #262626;
+}
+
+.bikehire-charges li::before {
+  content: "•";
+  color: #3a8c7d;
+}
+
+.bikehire-head u {
+  color: #262626;
+  font-size: 0.8em;
+  text-decoration: none;
+  border-bottom: #3a8c7d solid 3px;
+}
+
+.hybrid-head {
+  padding-bottom: 20px;
+}
+
+.hybrid-text {
+  margin-top: 1%;
+}
+
+.bikehire-head {
+  text-align: center;
+}
+
+h4 u {
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: #3a8c7d solid 3px;
+}
+
+.hire-bike {
+  height: 180px;
+}
+
+/* Service styles mobile */
+
+.service-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(elements/service.webp);
+  height: 90vh;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.servicehero-text {
+  text-align: center;
+  letter-spacing: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f2f2f2;
+}
+
+.servicehead-container {
+  text-align: center;
+}
+
+.servicehead-text {
+  padding-top: 1%;
+}
+.servicehead-container u {
+  text-decoration: none;
+  color: #262626;
+  border-bottom: #3a8c7d solid 3px;
+}
+
+.servicehead-container ul {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.servicehead-container li {
+  color: #262626;
+}
+
+.servicehead-container li::before {
+  content: "•";
+  color: #3a8c7d;
+  padding-right: 10px;
+}
+
+.service-container,
+.info-container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.service-list {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  padding-bottom: 10%;
+  background-color: #262626;
+}
+
+.service-list p {
+  font-size: 0.8em;
+  color: #f2f2f2;
+  margin-top: 3%;
+  text-align: center;
+}
+
+.service-list h5 {
+  letter-spacing: 3px;
+}
+
+.service-img {
+  max-width: 100%;
+}
+
+.service-price u {
+  color: #f2f2f2;
+  text-decoration: none;
+  border-bottom: #3a8c7d solid 3px;
+  padding-bottom: 5%;
+}
+
+.service-price {
+  font-size: 3em;
+}
+
+.service-name {
+  margin-top: 10%;
+  color: #3a8c7d;
+  margin-bottom: 10%;
+}
+
+.service-price,
+.service-name {
+  text-align: center;
+}
+
+.service-info {
+  margin-bottom: 10%;
+}
+
+.service-info p {
+  font-size: 0.9em;
+}
+
+
+/* Contact mobile styles */
+.contact-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(elements/contacthero.webp);
+  height: 90vh;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.contacthero-text {
+  text-align: center;
+  letter-spacing: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f2f2f2;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contact-info p {
+  text-align: left;
+  margin: auto;
+}
+.contactmain-head {
+  text-align: center;
+  font-size: 2em;
+  color: #3a8c7d;
+  font-weight: bold;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.hours-head {
+  font-size: 1.2em;
+  padding: 10px 0;
+}
+
+#hours {
+  margin-top: 5px;
+}
+
+.container {
+  width: 85%;
+  background: #3a8c7d;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+.flex-outer {
+  list-style-type: none;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.flex-outer li {
+  text-align: center;
+}
+
+.flex-outer li #email {
+  margin: auto;
+}
+
+.flex-outer > li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.flex-outer li input:not([type="checkbox"]),
+.flex-outer li textarea {
+  padding: 15px;
+  border: none;
+}
+.flex-outer li input {
+  width: 90%;
+}
+.flex-outer li textarea {
+  width: 80%;
+}
+
+.flex-outer li button {
+  margin-left: auto;
+  padding: 8px 16px;
+  border: none;
+  background: #333;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  border-radius: 2px;
+}
+
+.contact-map {
+  padding-top: 30px;
+  width: 85%;
+  margin: auto;
+}
+
+/* Media queries */
+
+@media (min-width: 768px) {
+  .menu-icon {
+    display: none !important;
+  }
+
+  .logo-img {
+    height: 12vh;
+  }
+  .menu-wrap {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    max-width: 100%;
+  }
+  nav {
+    position: relative;
+    top: 1rem;
+    background-color: transparent;
+  }
+  nav ul {
+    max-height: 70px;
+    /* padding-top: 25px; */
+    margin-left: 150px;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  nav ul li {
+    display: inline-flex;
+  }
+  nav ul li a:hover {
+    border-bottom: #3a8c7d 3px solid;
+  }
+  .heroImage {
+    height: 90vh;
+  }
+  .heroContents {
+    text-align: center;
+  }
+  .viewBikeButton {
+    font-size: 1.8em;
+    margin-top: 5%;
+    padding: 0 50px;
+    border-radius: 50px;
+    color: #f2f2f2;
+    background-color: #3a8c7d;
+  }
+
+  h1 {
+    font-size: 5em;
+    padding-top: 50px;
+  }
+  .index-text {
+    margin-top: 5%;
+    padding: 10px 200px;
+    font-size: 1.5em;
+  }
+  h4 {
+    margin-top: 5%;
+  }
+  .icon-text {
+    display: none;
+    color: #f2f2f2;
+  }
+
+  .sub-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    width: 1000px;
+  }
+  .sub-head {
+    width: 500px;
+  }
+  .sub-form {
+    width: 500px;
+  }
+
+  input[type="email"] {
+    margin-right: 20px;
+  }
+
+  input[type="submit"] {
+    height: 32px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  /* Service icons section */
+
+  .desktop-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1000px;
+    margin: auto;
+  }
+
+  .icon-text {
+    display: none;
+    color: #f2f2f2;
+  }
+  .service-text {
+    color: #f2f2f2;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .service-wrap {
+    background-color: #262626;
+  }
+  .service-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .service-icons {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    align-items: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0 10px;
+  }
+  .saleImage1 {
+    height: 300px;
+  }
+  .saleImage {
+    height: 250px;
+  }
+  .sale {
+    background-color: #3a8c7d;
+    /* height: 100%; */
+  }
+  .sale-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 350px;
+  }
+
+  h2 {
+    font-size: 4em;
+  }
+
+  .sale-head {
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .row {
+    margin: 10%;
+  }
+
+  aside {
+    padding-top: 20px;
+  }
+
+  h5 {
+    font-size: 3em;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .video-container {
+    overflow: hidden;
+    position: relative;
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+  }
+
+  .video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: "";
+  }
+
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .video-text {
+    width: 1000px;
+    margin: auto;
+  }
+  .trail-text {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  /* Weekly newsletter */
+  .subscribe {
+    background-color: #3a8c7d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    margin: auto;
+    padding: 30px 0;
+  }
+
+  h6 {
+    font-size: 2em;
+    letter-spacing: 3px;
+  }
+  .address-text {
+    display: block;
+    width: 500px;
+  }
+  .address {
+    margin-top: 0;
+    padding: 0;
+  }
+
+  footer {
+    width: 100%;
+  }
+  .footer-desktop {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-top: 40px;
+  }
+  .footer-icons {
+    display: flex;
+    padding: 15px 15px;
+    width: 500px;
+  }
+
+  .social-icons {
+    padding: 0 25px;
+  }
+
+  .footer-text,
+  .copyright {
+    display: none;
+  }
+
+  /* Bike main styles */
+
+  .bike-header {
+    font-size: 4em;
+    padding-top: 1%;
+    padding-bottom: 0;
+  }
+
+  .bike-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1200px;
+    margin: auto;
+    padding: 30px 0;
+  }
+
+  .cat-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .cat-spacing {
+    padding: 0;
+  }
+
+  .bike-cat {
+    height: 250px;
+  }
+
+  .mens-head h2 {
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .bike-selection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 1.1em;
+  }
+
+  .selection-size {
+    height: 200px;
+  }
+
+  .kids-selection {
+    height: 300px;
+  }
+
+  /* Tiagra and rest bike page styles */
+  .tiagra-desktop {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+ 
+
+
+  .bike-head h2 {
+    font-size: 3em;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  .bike-text {
+    text-align: left;
+    margin-left: 30px;
+  }
+
+  .bike-text h5 {
+    font-size: 2em;
+    padding-top: 0;
+    padding-left: 20px;
+    padding-bottom: 0;
+  }
+
+  .bike-text p {
+    font-size: 1em;
+    text-align: left;
+  }
+
+  .bike-text ul {
+    padding-left: 40px;
+  }
+
+  .bike-text li:before {
+    content: none;
+  }
+
+  .tiagra-img {
+    height: 300px;
+  }
+
+  /* Bike hire desktop styles */
+
+  .bikehire-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1200px;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+
+  .bikehire-charges {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+
+  .bikehire-charges li {
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  .hire-bike {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+  }
+
+  /* Servicing desktop styles */
+
+  .servicehead-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+  }
+
+  .servicehead-container ul {
+    list-style-type: none;
+  }
+
+  .servicehead-container h2 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  .servicehead-container p {
+    margin-top: 1%;
+  }
+
+  .servicehead-container li {
+    font-size: 1.2em;
+  }
+
+  .service-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .service-list {
+    width: 350px;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+  }
+
+  .service-list h3 {
+    font-size: 2.8em;
+    letter-spacing: 3px;
+  }
+
+  .service-list h5 {
+    font-size: 2em;
+  }
+
+  .service-list p {
+    font-size: 1em;
+  }
+
+  .info-container {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .service-info {
+    margin-bottom: 2%;
+  }
+
+  .service-info h5 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .service-info p {
+    margin-top: 2%;
+  }
+
+    /* Event styles */
+
+  .table_style h6 {
+    background-color: #3a8c7d;
+  }
+
+  /* Contact desktop styles */
+
+  .contact-main {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 1200px;
+    margin: auto;
+  }
+
+  .contact-info {
+    display: block;
+    width: 300px;
+  }
+
+  .contact-info p {
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .contact-text {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .container {
+    width: 500px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .contact-map {
+    padding-bottom: 20px;
+  }
+}
