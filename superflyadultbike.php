@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shop our range of Mountain Bikes online and in-store including the Superfly Mountain Bike">
+    <meta name="keywords" content="bike, bicycle, mountain, MTB, superfly, performance">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -20,7 +22,7 @@
             <h2>Superfly Mountain</h2>
         </div>
         <section class="tiagra-desktop">
-            <img src="elements/bike3.png" alt="bicycle" class="tiagra-img">
+            <img src="elements/bike3.png" alt="bicycle" class="tiagra-img" alt="A White and black bike">
 
             <div class="bike-text">
 

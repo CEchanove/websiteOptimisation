@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact us by phone or email. We are open 7 days a week, 9.30am - 6pm.">
+    <meta name="keywords" content="bike, bicycle, mountain bike, MTB, contact, emails, phone, opening times">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
-    <title>Bike King Borders</title>
+    <title>BKB | Contact Us</title>
 </head>
 
 
@@ -37,7 +39,7 @@
                 </div>
                 <div class="contact-info">
                     <h3 class="hours-head">Address</h3>
-                    <p>King Borders</p>
+                    <p>Bike King Borders</p>
                     <p>Unit 2</p>
                     <p>Wilderness Forest</p>
                     <p>Borders</p>

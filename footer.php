@@ -10,8 +10,8 @@
 
             </div>
             <div class="footer-icons">
-                <a href="#"><img class="social-icons" src="elements/instagram.png"></a>
-                <a href="#"><img class="social-icons" src="elements/facebook.png"></a>
+                <a href="#"><img class="social-icons" src="elements/instagram.png" alt="instagram"></a>
+                <a href="#"><img class="social-icons" src="elements/facebook.png" alt="facebook"></a>
                 <a href="#"><img class="social-icons" src="elements/twitter.png" alt="twitter"></a>
                 <a href="#"><img class="social-icons" src="elements/youtube.png" alt="youtube"></a>
             </div>

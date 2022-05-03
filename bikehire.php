@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hire our range of Mountain Bikes in store. Wide variety of bikes for every age, ability & terrain">
+    <meta name="keywords" content="bike, bicycle, hire, rent, rental, mountain, MTB">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -26,27 +28,27 @@
         <section class="bikehire-container">
             <div class="bikehire-charges">
 
-                <img class="hire-bike" src="elements/hirebike1.jpg" >
+                <img class="hire-bike" src="elements/hirebike1.jpg" alt="White bike leaning against orange wall" >
 
                 <h4 class="hybrid-head"><u>Hybrid Bikes</u></h4>
-                <p class="hybrid-text">Our hybrid bikes are model Elios Fantasy equipped with front suspension, disc
+                <p class="hybrid-text">Our hybrid bikes, model Elios Fantasy, are equipped with front suspension, disc
                     brakes, shimano 24 speed group-set, mudguards and pannier rack.</p>
                 <h4 class="hybrid-head"><u>Rent Charges</u></h4>
 
                 <ul>
                     <li>£10 per 4 HOURS – or part thereof – PER BIKE</li>
                     <li>£15 per 24 HOUR PERIOD – PER BIKE</li>
-                    <li>Hire for 5 DAYS – GET 2 DAYS more FREE (7 for price of 5)</li>
+                    <li>Hire for 5 DAYS – GET 2 DAYS FREE (7 for price of 5)</li>
                 </ul>
             </div>
             <div class="bikehire-charges">
 
-                <img class="hire-bike" src="elements/hirebike2.jpg" >
+                <img class="hire-bike" src="elements/hirebike2.jpg" alt="Black and white bike leaning against a bench with a city landscape behind it.">
 
                 <h4 class="hybrid-head"><u>Fat Bikes</u></h4>
-                <p class="hybrid-text">Our fat bikes are Genesis Caribou M-size equipped with disc brakes,
+                <p class="hybrid-text">Our fat bikes,  Genesis Caribou M-size, are equipped with disc brakes,
                     Shimano/Raceface 1×10 drivetrain, MTB flat pedals and, of course, a pair of grippy 26×4.0″ tyres,
-                    which are perfect for ridding on sand, mud or snow.</p>
+                    which are perfect for riding on sand, mud or snow.</p>
                 <h4 class="hybrid-head"><u>Rent Charges</u></h4>
 
                 <ul>

@@ -122,11 +122,11 @@ h4 {
   text-align: center;
   padding: 0 10px;
 }
-.service-icons a{
-  color :#fff;
+.service-icons a {
+  color: #fff;
   text-decoration: none;
 }
-.service-icons a:hover{
+.service-icons a:hover {
   color: #3a8c7d;
   text-decoration: underline;
 }
@@ -344,10 +344,10 @@ footer {
 .cat-spacing {
   padding: 20px;
 }
-.cat-spacing a{
+.cat-spacing a {
   color: #000;
   text-decoration: none;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .bike-main {
@@ -388,9 +388,9 @@ footer {
   text-align: center;
   font-size: 0.8em;
 }
-.bike-selection a{
+.bike-selection a {
   color: #fff;
-  cursor:pointer;
+  cursor: pointer;
   text-decoration: none;
 }
 
@@ -618,7 +618,6 @@ h4 u {
   font-size: 0.9em;
 }
 
-
 /* Contact mobile styles */
 .contact-hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -809,10 +808,6 @@ h4 u {
   }
   .sub-form {
     width: 500px;
-  }
-
-  input[type="email"] {
-    margin-right: 20px;
   }
 
   input[type="submit"] {
@@ -1044,8 +1039,6 @@ h4 u {
     flex-direction: row;
     justify-content: space-evenly;
   }
- 
-
 
   .bike-head h2 {
     font-size: 3em;
@@ -1181,7 +1174,7 @@ h4 u {
     margin-top: 2%;
   }
 
-    /* Event styles */
+  /* Event styles */
 
   .table_style h6 {
     background-color: #3a8c7d;

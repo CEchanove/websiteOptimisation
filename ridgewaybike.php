@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shop our range of Mountain Bikes online and in-store including the Ridgeway Performance Bike">
+    <meta name="keywords" content="bike, bicycle, mountain, MTB, ridgeway, performance">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
-    <title>BKB | Ridgeaway</title>
+    <title>BKB | Ridgeway</title>
 </head>
 
 
@@ -21,7 +23,7 @@
             <h2>Ridgeway Adventurer</h2>
         </div>
         <section class="tiagra-desktop">
-            <img src="elements/bike6.png" alt="bicycle" class="tiagra-img">
+            <img src="elements/bike6.png" alt="bicycle" class="tiagra-img" alt="A red bike">
 
             <div class="bike-text">
 

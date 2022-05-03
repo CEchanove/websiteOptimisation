@@ -1,7 +1,7 @@
 <header class="menu">
     <div class="menu-wrap">
 
-        <a href="index.html"><img src="elements/logo---v2.png" class="logo-img"></a>
+        <a href="index.php"><img src="elements/logo---v2.png" class="logo-img" alt="Bike King Borders Logo"></a>
         <input type="checkbox" id="checkbox">
         <nav>
             <ul>
