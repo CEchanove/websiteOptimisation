@@ -28,96 +28,70 @@
     </main>
     <article class="service-wrap">
         <div class="service-container">
-            <section class="service-icons">
-                <a href="shop.php"><img src="elements/CircleButton.png" class="icon" alt="shop icon">
-                <h3>Shop</h3></a>
-                <p class="icon-text">Brand new bikes in stock from top quality brands like Trek, Orange, Genesis and
-                    Santa
-                    Cruz and an extensive range of clothing and accessories from brands including Gore Bike Wear,
-                    Endura,
-                    Shimano, Hope and Bontrager the shop will cater for a wide range of visitors to the forest.
+            <section class="service-icons" onclick="location.href = 'shop.php';">
+                <img src="elements/CircleButton.png" class="icon" alt="shop icon">
+                <h3>Shop</h3>
+                <p class="icon-text">Brand new bikes and top quality clothing brands and accessories for a wide range of cyclists to the forest.
                 </p>
             </section>
-            <section class="service-icons">
-            <a href="service.php"><img src="elements/tools.png" class="icon" alt="service and repair icon">
-                <h3>Service & Repair</h3></a>
-                <p class="icon-text">Full repair and servicing facilities will be onsite to take care of any mechanical
-                    problems that occur on the trail - our qualified staff will do their best to keep you riding for as
-                    long
-                    as possible!
+            <section class="service-icons" onclick="location.href = 'service.php';">
+            <img src="elements/tools.png" class="icon" alt="service and repair icon">
+                <h3>Service & Repair</h3>
+                <p class="icon-text">Repair and servicing facilities available for any technical
+                    problems that occur - keeping you riding for as long as possible!
                 </p>
             </section>
-            <section class="service-icons">
-            <a href="#local-trails"><img src="elements/Map.png"  class="icon" alt="local trails icon">
-                <h3>Local Trails</h3></a>
-                <p class="icon-text">Our staff are all experienced riders and know the trails well - call in and ask
-                    their
-                    advice on the best routes and current trail conditions.
+            <section class="service-icons" onclick="location.href = '#local-trails';">
+            <img src="elements/Map.png"  class="icon" alt="local trails icon">
+                <h3>Local Trails</h3>
+                <p class="icon-text">Our staff are all experienced riders and know the trails well - call in for their
+                    advice on the best routes and trail conditions.
                 </p>
             </section>
         </div>
-        <section class="desktop-text">
-            <p class="service-text">
-                With brand new bikes in stock from top quality brands like Trek, Orange, Genesis and Santa Cruz and an
-                extensive range of clothing and accessories from brands including Gore Bike Wear, Endura, Shimano, Hope
-                and Bontrager the shop will cater for a wide range of visitors to the forest.<br><br>
-        Full repair and servicing facilities will be onsite to take care of any mechanical
-                problems that occur
-                on the trail - our qualified staff will do their best to keep you riding for as long as possible!<Br><br>
-                Our staff are all experienced riders and know the trails well - call in and ask their advice on the best
-                routes and current trail conditions.
-                
-</p>
-
-
-        </section>
     </article>
     <article class="sale">
 
-        <h2 class="sale-head">On Sale this week</h2>
+        <h2 class="sale-head">Sale of the Week</h2>
 
         <section class="sale-container">
-            <figure class="row">
+            <figure class="row" onclick="location.href = 'ridgewaybike.php';">
                 <img src="elements/saleBike.jpg" class="saleImage1" alt="A Black and white bike.">
-                <figcaption class="product-name">Ridgeway</figcaption>
+                <figcaption class="product-name product-title">Ridgeway</figcaption>
                 <figcaption class="product-name">£425</figcaption>
             </figure>
-            <figure class="row">
+            <figure class="row" onclick="location.href = 'attainbike.php';">
                 <img src="elements/saleBike6.jpg" class="saleImage1" alt="A Purple metallic bike">
-                <figcaption class="product-name">Attain Road</figcaption>
+                <figcaption class="product-name product-title">Attain Road</figcaption>
                 <figcaption class="product-name">£499</figcaption>
             </figure>
         </section>
         <section class="sale-container">
-            <figure class="row">
+            <figure class="row" onclick="location.href = 'tiagrabike.php';">
                 <img src="elements/saleBike1.jpg" class="saleImage" alt="A Silver bike">
-                <figcaption class="product-name">Tiagra</figcaption>
+                <figcaption class="product-name product-title">Tiagra</figcaption>
                 <figcaption class="product-name">£550</figcaption>
             </figure>
-            <figure class="row">
+            <figure class="row" onclick="location.href = 'attainbike.php';">
                 <img src="elements/saleBike2.jpg" class="saleImage" alt="A neon pink bike">
-                <figcaption class="product-name">Attain</figcaption>
+                <figcaption class="product-name product-title">Attain</figcaption>
                 <figcaption class="product-name">£599</figcaption>
             </figure>
-            <figure class="row">
+            <figure class="row" onclick="location.href = 'kidsuperfly.php';">
                 <img src="elements/saleBike3.jpg" class="saleImage" alt="A Black bike">
-                <figcaption class="product-name">Superfly Mountain</figcaption>
+                <figcaption class="product-name product-title">Superfly Mountain</figcaption>
                 <figcaption class="product-name">£299</figcaption>
             </figure>
         </section>
     </article>
     <aside id="local-trails">
         <h2>Local Trails</h2>
-        <div class=" video-container">
-        <iframe class="video" src='https://www.youtube.com/embed/bwtIyN9NfGI' frameborder='0' allowfullscreen></iframe>
+        <section class="video-container">
+            <div>
+        <iframe class="video" src='https://www.youtube.com/embed/bwtIyN9NfGI' frameborder='0' allowfullscreen></iframe><br/><br/>
         </div>
-        <section class="video-text">
-            <p class="trail-text">Wilderness Forest is a mountain biking Mecca deep in the heart of the stunning Borders. The biking experience here includes Green, Blue, Red or Black graded trails, as well as a magnificent multi-graded free-ride area. In the unlikely event that Wilderness fails to meet your thirst for biking exhilaration, you are only a short hop from Innerleithen's famous Red Bull down-hill and cross country trails. <br><br>
-Our Shop We have more than 100 hire bikes available at Bike King Borders, including top end demo models, full suspension trail bikes, hard-tails, kids bikes and tagalongs so we have something for all the family.
-With brand new bikes in stock from top quality brands like Trek, Orange, Genesis and Santa Cruz and an extensive range of clothing and accessories from brands including Gore Bike Wear, Endura, Shimano, Hope and Bontrager the shop will cater for a wide range of visitors to the forest.<br><br>
-Full repair and servicing facilities will be onsite to take care of any mechanical problems that occur on the trail - our qualified staff will do their best to keep you riding for as long as possible!<br><br>
-Our staff are all experienced riders and know the trails well - call in and ask their advice on the best routes and current trail conditions
-            </p>
+        <div style="clear: both;"></div>
+            <p class="trail-text">Wilderness Forest is a mountain biking Mecca deep in the heart of the stunning Borders. The biking experience here includes Green, Blue, Red or Black graded trails, as well as a magnificent multi-graded free-ride area. In the unlikely event that Wilderness fails to meet your thirst for biking exhilaration, you are only a short hop from Innerleithen's famous Red Bull down-hill and cross country trails. </p>
 
         </section>
     </aside>

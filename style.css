@@ -107,6 +107,12 @@ h4 {
   display: flex;
   flex-direction: column;
   background-color: #262626;
+}
+.sale2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #262626;
   padding-bottom: 30px;
 }
 .desktop-text {
@@ -116,11 +122,21 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #f2f2f2;
+  background: #3a8c7d;
+  color: #FFF;
   margin-top: 10%;
   margin-bottom: 10%;
   text-align: center;
-  padding: 0 10px;
+  padding: 10px 0px 10px 0px;
+  width: 32%;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 2px solid #FFF;
+}
+.service-icons:hover {
+  background: #f2f2f2;
+  color: #262626 !important;
+  border: 1px solid #3a8c7d;
 }
 .service-icons a {
   color: #fff;
@@ -155,6 +171,7 @@ h2 {
   height: 200px;
   margin-top: 10%;
   padding-bottom: 5px;
+  mix-blend-mode: multiply;
 }
 
 .product-name {
@@ -162,8 +179,12 @@ h2 {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-
   color: #f2f2f2;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+}
+.product-title{
+  font-weight: 600;
 }
 /*  */
 
@@ -260,17 +281,16 @@ h6 {
 }
 
 .video-container::after {
-  padding-top: 56.25%;
+
   display: block;
   content: "";
 }
 
 .video-container iframe {
-  position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 400px;
 }
 .subscribe {
   background-color: #3a8c7d;
@@ -369,6 +389,7 @@ footer {
 
 .bike-cat {
   height: 180px;
+  mix-blend-mode: multiply;
 }
 
 .mens-head,
@@ -396,10 +417,12 @@ footer {
 
 .selection-size {
   height: 150px;
+  mix-blend-mode: multiply;
 }
 
 .tiagra-img {
   height: 180px;
+  mix-blend-mode: multiply;
 }
 
 /* Tiagra bike page styles */
@@ -435,7 +458,7 @@ footer {
 }
 
 .heroContents {
-  padding-top: 40px;
+  padding-top: 60px;
   text-align: center;
   color: #f2f2f2;
   height: 100%;
@@ -535,6 +558,7 @@ h4 u {
 
 .servicehead-text {
   padding-top: 1%;
+  margin-bottom: -40px;
 }
 .servicehead-container u {
   text-decoration: none;
@@ -559,8 +583,7 @@ h4 u {
 
 .service-container,
 .info-container {
-  width: 85%;
-  margin: auto;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -601,8 +624,8 @@ h4 u {
 
 .service-name {
   margin-top: 10%;
-  color: #3a8c7d;
-  margin-bottom: 10%;
+  color: #FFF;
+  margin-bottom: 3%;
 }
 
 .service-price,
@@ -613,9 +636,17 @@ h4 u {
 .service-info {
   margin-bottom: 10%;
 }
+.service-info li{
+  width: 60%;
+  text-align: left;
+  list-style-type: square;
+  font-size: 1.0em;
+  color: #FFF;
+}
 
 .service-info p {
-  font-size: 0.9em;
+  font-size: 1.1em;
+  color: #FFF;
 }
 
 /* Contact mobile styles */
@@ -784,17 +815,14 @@ h4 u {
     padding-top: 50px;
   }
   .index-text {
-    margin-top: 5%;
+    margin-top: 3%;
     padding: 10px 200px;
     font-size: 1.5em;
   }
   h4 {
     margin-top: 5%;
   }
-  .icon-text {
-    display: none;
-    color: #f2f2f2;
-  }
+
 
   .sub-container {
     display: flex;
@@ -830,10 +858,7 @@ h4 u {
     margin: auto;
   }
 
-  .icon-text {
-    display: none;
-    color: #f2f2f2;
-  }
+
   .service-text {
     color: #f2f2f2;
     text-align: center;
@@ -852,15 +877,27 @@ h4 u {
     margin-bottom: 5vh;
     display: flex;
     align-items: center;
-    color: #f2f2f2;
     text-align: center;
-    padding: 0 10px;
+    padding: 10px 0px 10px 0px;
+    width: 32%;
+    background: #3a8c7d;
+    color: #FFF;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid #FFF;
+  }
+  .service-icons:hover {
+    background: #f2f2f2;
+    color: #262626 !important;
+    border: 2px solid #3a8c7d;
   }
   .saleImage1 {
     height: 300px;
+    margin-bottom: -7px;
   }
   .saleImage {
     height: 250px;
+    mix-blend-mode: multiply;
   }
   .sale {
     background-color: #3a8c7d;
@@ -882,7 +919,11 @@ h4 u {
   }
 
   .row {
-    margin: 10%;
+    margin: 20%;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    border: 1px solid #262626;
   }
 
   aside {
@@ -905,26 +946,33 @@ h4 u {
   }
 
   .video-container::after {
-    padding-top: 56.25%;
     display: block;
     content: "";
   }
 
   .video-container iframe {
-    position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    margin-left: auto;
+    nargin-right: auto;
+    width: 80%;
+    height: 400px;
+    clear: both;
   }
 
   .video-text {
-    width: 1000px;
+    width: 80%;
     margin: auto;
   }
   .trail-text {
-    margin-top: 5%;
+    margin-top: 2%;
     margin-bottom: 5%;
+    background-color: #3a8c7d;
+    border-radius: 4px;
+    padding: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
   /* Weekly newsletter */
   .subscribe {
@@ -1004,6 +1052,7 @@ h4 u {
 
   .bike-cat {
     height: 250px;
+    mix-blend-mode: multiply;
   }
 
   .mens-head h2 {
@@ -1025,6 +1074,7 @@ h4 u {
 
   .selection-size {
     height: 200px;
+    mix-blend-mode: multiply;
   }
 
   .kids-selection {
@@ -1155,14 +1205,14 @@ h4 u {
   }
 
   .info-container {
-    width: 1000px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
   }
 
   .service-info {
-    margin-bottom: 2%;
+    margin-bottom: 0%;
   }
 
   .service-info h5 {
@@ -1171,7 +1221,8 @@ h4 u {
   }
 
   .service-info p {
-    margin-top: 2%;
+    margin-top: -20px;
+    max-width: 80%;
   }
 
   /* Event styles */
